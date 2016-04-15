@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'existencelight';
+  src: url("../fonts/existence-light.eot");
+  src: url("../fonts/existence-light.eot?#iefix") format("embedded-opentype"), url("../fonts/existence-light.woff2") format("woff2"), url("../fonts/existence-light.woff") format("woff"), url("../fonts/existence-light.ttf") format("truetype"), url("../fonts/existence-light.svg#existencelight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "existencelight", Arial, sans-serif;
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.grid-container .row:after, .grid-container .row:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-container .row [class*="col-"] {
+  float: left;
+  min-height: 1px;
+  border: 1px solid black;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+header {
+  color: #ffffff;
+}
+
+header .img {
+  width: 100%;
+  background-image: url("../img/background.png");
+  background-size: 100% auto;
+  padding-bottom: 56.4%;
+  background-repeat: no-repeat;
+  padding: 2% 0;
+}
+
+header .header_text {
+  text-align: center;
+  margin-top: 2%;
+}
+
+header .header_title {
+  font-size: 72px;
+}
+
+header .header_title .title_violet {
+  color: #9f449b;
+}
+
+header .header_subtitle {
+  font-size: 42px;
+  margin-top: 3%;
+}
+
+header .header_text {
+  font-size: 20px;
+}
+
+header [class*="hex"] {
+  border: 1px solid white;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons .icons1 {
+  flex-grow: 2;
+}
+
+.icons .icons2 {
+  flex-grow: 1;
+}
+
+.icons .icons2_top {
+  margin-top: 115px;
+  margin-bottom: 200px;
+}
+
+.icons .icons3 {
+  flex-grow: 2;
+}
