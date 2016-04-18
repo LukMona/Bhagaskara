@@ -6,6 +6,30 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ubuntu_titlingbold';
+  src: url("../fonts/ubuntutitling-bold.eot");
+  src: url("../fonts/ubuntutitling-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntutitling-bold.woff2") format("woff2"), url("../fonts/ubuntutitling-bold.woff") format("woff"), url("../fonts/ubuntutitling-bold.ttf") format("truetype"), url("../fonts/ubuntutitling-bold.svg#ubuntu_titlingbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5;
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
 * {
   box-sizing: border-box;
   font-size: 16px;
@@ -99,21 +123,12 @@ header .header_text {
   margin-top: 2%;
 }
 
-header .header_title {
-  font-size: 72px;
-}
-
-header .header_title .title_violet {
+header .title_violet {
   color: #9f449b;
 }
 
 header .header_subtitle {
-  font-size: 42px;
   margin-top: 3%;
-}
-
-header .header_text {
-  font-size: 20px;
 }
 
 header [class*="hex"] {
@@ -125,6 +140,7 @@ header [class*="hex"] {
 }
 
 .icons .icons1 {
+  margin-top: 15%;
   flex-grow: 2;
 }
 
@@ -133,10 +149,11 @@ header [class*="hex"] {
 }
 
 .icons .icons2_top {
-  margin-top: 115px;
-  margin-bottom: 200px;
+  margin-top: 25%;
+  margin-bottom: 70%;
 }
 
 .icons .icons3 {
+  margin-top: 15%;
   flex-grow: 2;
 }
