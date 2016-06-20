@@ -5,7 +5,7 @@ var jshint = require("gulp-jshint");
 gulp.task("zadanie", function(){
   return gulp.src("npmjs/*.js")
   .pipe(jshint())
-  .pipe(jshint.reporter("default"))
+  .pipe(jshint.reporter("default"));
 });
 
 gulp.task("sass", function(){
@@ -14,9 +14,9 @@ gulp.task("sass", function(){
     errLogToConsole: true,
     outputStyle: "expanded"
   }))
-  .pipe(gulp.dest("css"))
-})
+  .pipe(gulp.dest("css"));
+});
 
 gulp.task("watch", function(){
-  gulp.watch("scss/**/*.scss", ["sass"])
-})
+  gulp.watch("scss/**/*.scss", ["sass"]);
+});
