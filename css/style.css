@@ -14,6 +14,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'tuffyregular';
+  src: url("../fonts/tuffy-webfont.woff2") format("woff2"), url("../fonts/tuffy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 62.5;
 }
@@ -32,7 +39,6 @@ h3 {
 
 * {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 body {
@@ -115,6 +121,7 @@ header .img {
   padding-bottom: 56.4%;
   background-repeat: no-repeat;
   padding: 2% 0;
+  background-attachment: fixed;
 }
 
 header .header_text {
@@ -219,10 +226,38 @@ header .hex7 {
 }
 
 .sticky-menu {
+  font-style: "tuffyregular", Arial, sans-serif;
   background-color: #ffffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bold;
 }
 
-.sticky-menu .title {
-  margin-top: 3%;
-  margin-bottom: 3%;
+.sticky-menu .logo {
+  margin-left: 20%;
+  float: left;
+  font-size: 20px;
+}
+
+.sticky-menu .menu {
+  float: right;
+  margin-right: 12%;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 45%;
+}
+
+.sticky-menu .menu ul {
+  margin: 0;
+}
+
+.sticky-menu .menu ul li {
+  display: inline-block;
+  margin-right: 2%;
+  letter-spacing: 1px;
+}
+
+.sticky-menu .menu ul li:hover {
+  color: #9f449b;
+  font-weight: bolder;
 }
