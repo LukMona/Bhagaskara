@@ -261,3 +261,56 @@ header .hex7 {
   color: #9f449b;
   font-weight: bolder;
 }
+
+.main-feautures {
+  background-color: #eeeeee;
+}
+
+.main-feautures .features {
+  margin: auto;
+  width: 65%;
+  margin-top: 7%;
+  background-color: #eeeeee;
+}
+
+.features-all {
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin-right: 2%;
+  margin-bottom: 10%;
+}
+
+.features-all svg {
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.features-all svg .cls-1, .features-all svg .cls-2 {
+  fill: #ccd0d2;
+}
+
+.features-all svg .cls-1 {
+  stroke: #ccd0d2;
+}
+
+.features-all svg .cls-1:hover {
+  fill: #9f449b;
+  fill-opacity: 0.0;
+  stroke: #9f449b;
+}
+
+.features-all svg .cls-2:hover {
+  fill: #9f449b;
+  fill-opacity: 0.9;
+  stroke: #9f449b;
+}
+
+.features-all span {
+  font-size: 20px;
+}
+
+.features-all p {
+  font-size: 12px;
+  margin: 10% 5%;
+}
