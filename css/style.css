@@ -1065,7 +1065,6 @@ header .hex7 {
 
 .quote {
   background-image: url("../img/sectionfoto.jpg");
-  background-size: 100% auto;
   padding-bottom: 31.2%;
   background-repeat: no-repeat;
   padding: 2% 0;
@@ -1173,7 +1172,7 @@ header .hex7 {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background-color: #eeeeee;
+  background-color: #ccd0d2;
   margin: 0 auto;
   margin-bottom: 5%;
 }
@@ -1280,4 +1279,60 @@ header .hex7 {
 
 .skill-bars progress[aria-valuenow]:before {
   background: #9f449b;
+}
+
+.main-facts {
+  background-color: #eeeeee;
+}
+
+.numbers, .people-quote {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.numbers {
+  margin-top: 10%;
+}
+
+.numbers .one, .numbers .two, .numbers .three, .numbers .four {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.numbers span:first-child {
+  font-size: 2.5rem;
+  color: #676767;
+}
+
+.numbers span {
+  color: #ccd0d2;
+  font-size: 0.9rem;
+}
+
+.people-quote {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.people-quote .circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #ccd0d2;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.people-quote .fact-quote {
+  font-size: 1.7rem;
+  color: #676767;
+  margin-bottom: 5%;
+}
+
+.people-quote .person {
+  color: #676767;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
