@@ -989,6 +989,7 @@ header .hex7 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 .aboutus-header:before {
@@ -1161,7 +1162,6 @@ header .hex7 {
 .team-profiles {
   text-align: center;
   margin-top: 10%;
-  margin-bottom: 60%;
 }
 
 .team-profiles .teams {
@@ -1206,4 +1206,78 @@ header .hex7 {
   width: 2rem;
   float: left;
   margin-left: 10%;
+}
+
+.skills-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.skills-header:before {
+  content: "";
+  padding-left: 38px;
+  margin-right: 30px;
+  border-bottom: 1px solid #9f449b;
+  border-left: 1px solid #9f449b;
+  position: relative;
+  top: 15px;
+}
+
+.skills-header:after {
+  content: "";
+  border-top: 1px solid #9f449b;
+  border-right: 1px solid #9f449b;
+  position: relative;
+  top: -15px;
+  padding-right: 38px;
+  margin-left: 30px;
+}
+
+.skill-bars {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.skill-bars .left {
+  float: left;
+}
+
+.skill-bars .right {
+  float: right;
+}
+
+.skill-bars span:first-child {
+  float: left;
+  font-weight: bold;
+}
+
+.skill-bars span {
+  float: right;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+.skill-bars progress {
+  width: 25rem;
+  border: none;
+  margin-bottom: 5%;
+  /* Turns off styling - not usually needed, but good to know. */
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.skill-bars progress::-moz-progress-bar {
+  background: #9f449b;
+}
+
+.skill-bars progress::-webkit-progress-value {
+  background: #9f449b;
+}
+
+.skill-bars progress[aria-valuenow]:before {
+  background: #9f449b;
 }
