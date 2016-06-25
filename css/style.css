@@ -768,6 +768,7 @@ body {
 
 header {
   color: #ffffff;
+  font-family: "existencelight", Arial, sans-serif;
 }
 
 header .img {
@@ -785,22 +786,17 @@ header .header_text {
   margin-top: 2%;
 }
 
-header .title_violet {
-  color: #9f449b;
-  font-size: 4rem;
-}
-
-header .header_subtitle {
+.header_subtitle {
   margin-top: 3%;
 }
 
-header [class*="hex"] {
+[class*="hex"] {
   width: 100px;
   float: left;
   margin-left: 50px;
 }
 
-header .hex7 {
+.hex7 {
   width: 50px;
 }
 
