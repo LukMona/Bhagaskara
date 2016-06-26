@@ -682,7 +682,7 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -1374,7 +1374,8 @@ header .header_text {
 .portfolio-img-btns [class*="btn-"] {
   text-align: center;
   width: 13%;
-  margin-right: 12%;
+  margin-left: 6%;
+  margin-right: 6%;
   padding: 1%;
   float: left;
   border: 1px solid black;
@@ -1416,6 +1417,7 @@ header .header_text {
   position: static;
   margin: 0 auto;
   text-align: start;
+  margin-bottom: 10%;
 }
 
 .portfolio-more-btn span {
@@ -1424,4 +1426,110 @@ header .header_text {
   top: 25%;
   left: 20%;
   color: #ffffff;
+}
+
+.intouch {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.intouch .btn {
+  float: left;
+  border: 1px solid #9f449b;
+  background-color: #9f449b;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5%;
+  box-shadow: 2px 4px #6b2e68;
+  position: absolute;
+  font-family: "gudearegular", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.intouch .btn span {
+  font-size: 1rem;
+  position: relative;
+  top: 25%;
+  left: 20%;
+  color: #ffffff;
+}
+
+.intouch-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.intouch-header:after {
+  content: "";
+  border-top: 1px solid #9f449b;
+  border-right: 1px solid #9f449b;
+  position: relative;
+  top: -15px;
+  padding-right: 38px;
+  margin-left: 30px;
+}
+
+.intouch-header:before {
+  content: "";
+  padding-left: 38px;
+  margin-right: 30px;
+  border-bottom: 1px solid #9f449b;
+  border-left: 1px solid #9f449b;
+  position: relative;
+  top: 15px;
+}
+
+.intouch-form .left {
+  width: 50%;
+  float: left;
+}
+
+.intouch-form .left input, .intouch-form .left textarea {
+  margin-bottom: 2%;
+  width: 80%;
+  padding: 2%;
+}
+
+.intouch-form .right {
+  width: 50%;
+  float: left;
+}
+
+.intouch-form .right .adress {
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.intouch-form .right span {
+  font-weight: bolder;
+}
+
+.intouch-form .right span:last-child {
+  margin-bottom: 5%;
+}
+
+.intouch-form .right .socialmedia .facebook, .intouch-form .right .socialmedia .twitter, .intouch-form .right .socialmedia .gplus {
+  float: left;
+  width: 10%;
+  margin-top: 15%;
+  margin-right: 2%;
+}
+
+footer {
+  text-align: center;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-family: "existencelight", Arial, sans-serif;
+}
+
+footer .grey {
+  color: #676767;
 }
