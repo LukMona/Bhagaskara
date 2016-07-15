@@ -882,6 +882,14 @@ header .header_text {
   font-weight: bold;
 }
 
+.sticky-menu a {
+  text-decoration: none;
+}
+
+.sticky-menu a:visited {
+  color: inherit;
+}
+
 .sticky-menu .logo {
   margin-left: 20%;
   float: left;
