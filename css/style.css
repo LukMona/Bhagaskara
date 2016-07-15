@@ -774,10 +774,8 @@ header {
 header .img {
   width: 100%;
   background-image: url("../img/background.png");
-  background-size: 100% auto;
-  padding-bottom: 56.4%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 3rem;
 }
 
 header .header_text {
