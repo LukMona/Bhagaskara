@@ -896,6 +896,24 @@ header .header_text {
   font-size: 20px;
 }
 
+@media (max-width: 1133px) {
+  .sticky-menu .logo {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 991px) {
+  .sticky-menu .logo {
+    margin-left: 7%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sticky-menu .logo {
+    display: none;
+  }
+}
+
 .sticky-menu .menu {
   float: right;
   margin-right: 12%;
@@ -904,14 +922,47 @@ header .header_text {
   width: 45%;
 }
 
+@media (max-width: 1133px) {
+  .sticky-menu .menu {
+    width: 55%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .sticky-menu .menu {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sticky-menu .menu {
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+}
+
 .sticky-menu .menu ul {
   margin: 0;
+}
+
+@media (max-width: 767px) {
+  .sticky-menu .menu ul {
+    text-align: center;
+  }
 }
 
 .sticky-menu .menu ul li {
   display: inline-block;
   margin-right: 2%;
   letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .sticky-menu .menu ul li:last-child {
+    margin-right: 0;
+  }
 }
 
 .sticky-menu .menu ul li:hover {
