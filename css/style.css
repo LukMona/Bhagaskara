@@ -1155,9 +1155,21 @@ header .header_text {
   width: 65%;
 }
 
+@media (max-width: 767px) {
+  .aboutus-section {
+    text-align: center;
+  }
+}
+
 .aboutus-section .photo {
   float: left;
   width: 50%;
+}
+
+@media (max-width: 767px) {
+  .aboutus-section .photo {
+    width: 100%;
+  }
 }
 
 .aboutus-section .photo img {
@@ -1169,10 +1181,25 @@ header .header_text {
   width: 50%;
 }
 
+@media (max-width: 767px) {
+  .aboutus-section .right {
+    width: 100%;
+    margin-top: 2%;
+  }
+}
+
 .aboutus-section .right .text {
   font-size: 0.8rem;
   width: 80%;
   margin-bottom: 7%;
+}
+
+@media (max-width: 767px) {
+  .aboutus-section .right .text {
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
 }
 
 .aboutus-section .right .text p {
@@ -1199,6 +1226,15 @@ header .header_text {
   top: 25%;
   left: 20%;
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .aboutus-section .right .btn {
+    position: static;
+    text-align: -webkit-auto;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
 }
 
 .quote {
