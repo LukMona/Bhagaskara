@@ -1562,6 +1562,12 @@ header .header_text {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  .numbers .one, .numbers .two, .numbers .three, .numbers .four {
+    width: 50%;
+  }
+}
+
 .numbers span:first-child {
   font-size: 2.5rem;
   color: #676767;
