@@ -1070,6 +1070,12 @@ header .header_text {
   color: #676767;
 }
 
+@media (max-width: 767px) {
+  .features-all {
+    width: 45%;
+  }
+}
+
 .features-all svg {
   width: 50%;
   margin-bottom: 10%;
