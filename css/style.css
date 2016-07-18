@@ -1755,6 +1755,17 @@ header .header_text {
   color: #ffffff;
 }
 
+@media (max-width: 1042px) {
+  .intouch .btn {
+    position: static;
+    text-align: -webkit-auto;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    float: none;
+  }
+}
+
 .intouch-header {
   font-size: 2rem;
   text-align: center;
@@ -1793,15 +1804,50 @@ header .header_text {
   float: left;
 }
 
+@media (max-width: 1042px) {
+  .intouch-form .left {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .intouch-form .left input, .intouch-form .left textarea {
   margin-bottom: 2%;
   width: 80%;
   padding: 2%;
+  border: 1px solid #676767;
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .left input, .intouch-form .left textarea {
+    width: 80%;
+    margin: 2%;
+    padding: 1%;
+  }
 }
 
 .intouch-form .right {
   width: 50%;
   float: left;
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .right {
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .right .text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .right p {
+    text-align: justify;
+  }
 }
 
 .intouch-form .right .adress {
@@ -1810,12 +1856,34 @@ header .header_text {
   margin-bottom: 5%;
 }
 
+@media (max-width: 1042px) {
+  .intouch-form .right .adress {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+}
+
 .intouch-form .right span {
   font-weight: bolder;
 }
 
+@media (max-width: 1042px) {
+  .intouch-form .right span {
+    text-align: center;
+  }
+}
+
 .intouch-form .right span:last-child {
   margin-bottom: 5%;
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .right .socialmedia {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .intouch-form .right .socialmedia .facebook, .intouch-form .right .socialmedia .twitter, .intouch-form .right .socialmedia .gplus {
@@ -1823,6 +1891,15 @@ header .header_text {
   width: 10%;
   margin-top: 15%;
   margin-right: 2%;
+}
+
+@media (max-width: 1042px) {
+  .intouch-form .right .socialmedia .facebook, .intouch-form .right .socialmedia .twitter, .intouch-form .right .socialmedia .gplus {
+    margin-top: 5%;
+    width: auto;
+    float: none;
+    display: -webkit-inline-box;
+  }
 }
 
 footer {
