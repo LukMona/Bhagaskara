@@ -802,6 +802,15 @@ header .header_text {
     margin-bottom: 10%;
     margin-top: 5%;
   }
+}
+
+@media (max-width: 526px) and (max-width: 767px) {
+  header .header_text .header_title {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 526px) {
   header .header_text .header_title:before {
     content: "";
     padding-left: 38px;
@@ -1130,6 +1139,12 @@ header .header_text {
   margin-top: 5%;
 }
 
+@media (max-width: 767px) {
+  .aboutus-header {
+    margin-top: 10%;
+  }
+}
+
 .aboutus-header:before {
   content: "";
   padding-left: 38px;
@@ -1272,6 +1287,12 @@ header .header_text {
   margin-top: 5%;
 }
 
+@media (max-width: 767px) {
+  .team-header {
+    margin-top: 10%;
+  }
+}
+
 .team-header:before {
   content: "";
   padding-left: 38px;
@@ -1296,6 +1317,18 @@ header .header_text {
   width: 18%;
   margin: 0 auto;
   margin-bottom: 10%;
+}
+
+@media (max-width: 1096px) {
+  .team-arrows {
+    width: 25%;
+  }
+}
+
+@media (max-width: 788px) {
+  .team-arrows {
+    width: 35%;
+  }
 }
 
 .team-arrows .left, .team-arrows .right {
@@ -1369,6 +1402,18 @@ header .header_text {
   margin-top: 5%;
 }
 
+@media (max-width: 1244px) {
+  .team-profiles .teams .socialmedia {
+    width: 40%;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-profiles .teams .socialmedia {
+    width: 50%;
+  }
+}
+
 .team-profiles .teams .facebook {
   width: 2rem;
   float: left;
@@ -1386,6 +1431,12 @@ header .header_text {
   text-align: center;
   margin-bottom: 10%;
   margin-top: 5%;
+}
+
+@media (max-width: 767px) {
+  .skills-header {
+    margin-top: 10%;
+  }
 }
 
 .skills-header:before {
@@ -1523,6 +1574,12 @@ header .header_text {
   margin-top: 5%;
 }
 
+@media (max-width: 767px) {
+  .portfolio-header {
+    margin-top: 10%;
+  }
+}
+
 .portfolio-header:before {
   content: "";
   padding-left: 38px;
@@ -1640,6 +1697,12 @@ header .header_text {
   margin-top: 5%;
 }
 
+@media (max-width: 767px) {
+  .intouch-header {
+    margin-top: 10%;
+  }
+}
+
 .intouch-header:after {
   content: "";
   border-top: 1px solid #9f449b;
@@ -1706,6 +1769,12 @@ footer {
   margin-bottom: 2%;
   margin-top: 2%;
   font-family: "existencelight", Arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+  footer {
+    margin-top: 10%;
+  }
 }
 
 footer .grey {
